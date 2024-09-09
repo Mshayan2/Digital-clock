@@ -94,3 +94,42 @@
 
 }
 
+@media (max-width: 1200px) {
+    .containor {
+        width: 700px;
+    }
+    .Clock span {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 992px) {
+    .containor {
+        width: 600px;
+    }
+    .Clock span {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .containor {
+        width: 500px;
+    }
+    .Clock span {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .containor {
+        width: 90%;
+    }
+    .Clock span {
+        font-size: 40px;
+    }
+    .containor::before, .containor::after {
+        width: 120px;
+        height: 120px;
+    }
+}
